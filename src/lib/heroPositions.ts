@@ -97,13 +97,8 @@ const HERO_POSITION_MAP: Record<string, Position> = {
   'Nature\'s Prophet': 'Offlane',
   'Enchantress':       'Offlane',
   'Venomancer':        'Offlane',
-  'Lifestealer':       'Offlane',
   'Dark Willow':       'Offlane',
-  'Treant Protector':  'Offlane',
-  'Abaddon':           'Offlane',
-  'Jakiro':            'Offlane',
   'Techies':           'Offlane',
-  'Doom':              'Offlane',
 
   // ── Soft Support (Pos 4) ──────────────────────────────────────────────
   'Shadow Shaman':     'Soft Support',
@@ -126,7 +121,6 @@ const HERO_POSITION_MAP: Record<string, Position> = {
   'Ancient Apparition': 'Soft Support',
   'Witch Doctor':      'Soft Support',
   'Jakiro':            'Soft Support',
-  'Mirana':            'Soft Support',
   'Crystal Maiden':    'Soft Support',
   'Lich':              'Soft Support',
 
