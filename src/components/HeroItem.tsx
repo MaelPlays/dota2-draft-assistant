@@ -37,7 +37,7 @@ export const HeroItem: React.FC<HeroItemProps> = ({ hero, isSelected, isRecommen
   const ringClass = isSelected
     ? 'ring-2 ring-white/80 shadow-lg shadow-white/10 scale-105 z-10'
     : isRecommended
-    ? 'ring-2 ring-amber-400 shadow-lg shadow-amber-400/30 scale-105 z-10'
+    ? 'ring-2 ring-green-400 shadow-lg shadow-green-400/40 scale-105 z-10'
     : `ring-1 ${attr.ring} shadow-sm ${attr.glow}`;
 
   return (
@@ -72,7 +72,7 @@ export const HeroItem: React.FC<HeroItemProps> = ({ hero, isSelected, isRecommen
         )}
         {/* Recommended badge */}
         {isRecommended && !isSelected && (
-          <div className="absolute top-0.5 right-0.5 w-3 h-3 rounded-full bg-amber-400 shadow-sm shadow-amber-400/50" />
+          <div className="absolute top-0.5 right-0.5 w-3 h-3 rounded-full bg-green-400 shadow-sm shadow-green-400/60 animate-pulse" />
         )}
       </div>
 
